@@ -1,0 +1,12 @@
+.About{
+    width: 80%;
+    margin: 5vh auto;
+
+}
+
+.About img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}

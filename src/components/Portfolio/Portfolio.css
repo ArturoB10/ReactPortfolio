@@ -1,0 +1,45 @@
+.Portfolio{
+    width: 80%;
+    margin: 5vh auto;
+
+}
+
+.apps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.app{
+    width: 47%;
+    position: relative;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.app img{
+    width: 100%;
+}
+
+.app .info{
+    background: white;
+    border: 1px solid black;
+    width: 50%;
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    opacity: .65;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.app h4{
+    margin: 0;
+}
+
+.app p{
+    margin: 0;
+    font-size: 80%;
+}
